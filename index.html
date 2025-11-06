@@ -152,18 +152,25 @@
         <a class="btn primary fade" id="wa-contact" href="#" target="_blank" rel="noopener">WhatsApp</a>
         <p class="muted">@hotelmadridba</p>
       </div>
-      <form class="card form fade" action="https://formspree.io/f/xbjvgepq" method="POST">
-        <label>Nombre
-          <input name="name" type="text" required>
-        </label>
-        <label>Email
-          <input name="email" type="email" required>
-        </label>
-        <label>Mensaje
-          <textarea name="message" rows="4" required></textarea>
-        </label>
-        <button class="btn primary" type="submit">Enviar</button>
-        <small class="muted">Al enviar aceptás nuestra política de privacidad.</small>
+      <form class="contact-form fade" action="https://formspree.io/f/xbjvgepq" method="POST">
+        <div class="form-field">
+          <label for="contact-name">Nombre completo</label>
+          <input id="contact-name" name="name" type="text" placeholder="Ej: María González" required>
+        </div>
+        <div class="form-field">
+          <label for="contact-email">Email</label>
+          <input id="contact-email" name="email" type="email" placeholder="ejemplo@email.com" required>
+        </div>
+        <div class="form-field">
+          <label for="contact-phone">Teléfono (opcional)</label>
+          <input id="contact-phone" name="phone" type="tel" placeholder="+54 9 11 XXXX-XXXX">
+        </div>
+        <div class="form-field full">
+          <label for="contact-message">Mensaje</label>
+          <textarea id="contact-message" name="message" rows="5" placeholder="Contanos en qué podemos ayudarte..." required></textarea>
+        </div>
+        <button class="btn primary form-submit" type="submit">Enviar mensaje</button>
+        <p class="form-privacy">Al enviar este formulario aceptás nuestra política de privacidad.</p>
       </form>
     </div>
   </section>
