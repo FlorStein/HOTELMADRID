@@ -27,14 +27,14 @@ img{max-width:100%;display:block;border-radius:12px}
 }
 .nav{
   display:flex; align-items:center; justify-content:space-between;
-  padding:14px 20px; gap:16px; background:rgba(109,123,76,.6); border-bottom:1px solid rgba(0,0,0,.05);
+  padding:14px 20px; gap:16px; background:rgba(rgb(56, 71, 57),.6); border-bottom:1px solid rgba(0,0,0,.05);
 }
 .nav.scrolled{ background:rgba(255,255,255,.85); box-shadow:var(--shadow) }
-.brand{font-family:'Bodoni Moda', serif; letter-spacing:3px; font-size:22px; color:var(--text); text-decoration:none}
+.brand{font-family:'Bodoni Moda', serif; letter-spacing:3px; font-size:22px; color:var(--beige); text-decoration:none}
 .brand.small{font-size:18px}
 
 .nav-links{ display:flex; gap:18px }
-.nav-links a{ color:var(--text); text-decoration:none; padding:8px 10px; border-radius:10px }
+.nav-links a{ color:var(--beige); text-decoration:none; padding:8px 10px; border-radius:10px }
 .nav-links a:hover{ background:rgba(0,0,0,.05)}
 
 .mnav-toggle{ display:none; width:40px; height:32px; border:none; background:transparent; padding:0; cursor:pointer }
@@ -512,7 +512,7 @@ img{max-width:100%;display:block;border-radius:12px}
 
 /* ===== Nav background transition on scroll ===== */
 .nav{
-  /* background: transparent; */
+  background:rgba(56, 71, 57,.92);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
   transition: background .28s ease, backdrop-filter .28s ease, -webkit-backdrop-filter .28s ease, box-shadow .28s ease;
