@@ -12,6 +12,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
+
 body{
   margin:0;
   color:var(--text);
@@ -30,7 +31,7 @@ img{max-width:100%;display:block;border-radius:12px}
   padding:14px 20px; gap:16px; background:rgba(rgb(56, 71, 57),.6); border-bottom:1px solid rgba(0,0,0,.05);
 }
 .nav.scrolled{ background:rgba(255,255,255,.85); box-shadow:var(--shadow) }
-.brand{font-family:'Bodoni Moda', serif; letter-spacing:3px; font-size:22px; color:var(--beige); text-decoration:none}
+.brand{font-family:'libre bodoni', serif; letter-spacing:3px; font-size:22px; color:var(--beige); text-decoration:none}
 .brand.small{font-size:18px}
 
 .nav-links{ display:flex; gap:18px }
@@ -44,12 +45,12 @@ img{max-width:100%;display:block;border-radius:12px}
 .section{ padding:64px 0 }
 .section.alt{ background:#fff }
 .container{ width:min(1080px, 92%); margin:auto }
-.h2{ font-family:'Bodoni Moda',serif; font-size:40px; line-height:1.1; margin:0 0 18px }
+.h2{ font-family:'libre bodoni',serif; font-size:40px; line-height:1.1; margin:0 0 18px }
 .center{ text-align:center }
 
 .hero{ position:relative; overflow:clip }
 .hero-inner{ position:relative; z-index:2; padding:100px 0 40px }
-.title{ font-family:'Bodoni Moda',serif; font-size:56px; margin:0 0 10px; }
+.title{ font-family:'libre bodoni',serif; font-size:56px; margin:0 0 10px; }
 .subtitle{ color:var(--muted); margin:0 0 22px }
 .hero-image-mask{ position:absolute; inset:0; z-index:1; opacity:.18 }
 .hero-image-mask img{ width:100%; height:100%; object-fit:cover; border-radius:0 }
@@ -113,7 +114,7 @@ img{max-width:100%;display:block;border-radius:12px}
 }
 .showcase-item:hover .showcase-image img{ transform: translateY(calc(var(--y,0%) - 2%)) scale(1.1) }
 
-.showcase-content .heading{ font-family:'Bodoni Moda',serif; font-size:44px; line-height:.95 }
+.showcase-content .heading{ font-family:'libre bodoni',serif; font-size:44px; line-height:.95 }
 .showcase-content .heading.italic{ font-style:italic }
 .showcase-content .text-gap{ display:flex; gap:12px; flex-wrap:wrap }
 .showcase-content .subnav{ display:flex; gap:14px; margin:10px 0 16px }
@@ -208,7 +209,7 @@ img{max-width:100%;display:block;border-radius:12px}
 }
 .room-block.active .room-panel{ opacity:1; transform:none; filter:blur(0) }
 
-.room-title .heading{ font-family:'Bodoni Moda',serif; font-size:64px; line-height:.95 }
+.room-title .heading{ font-family:'libre bodoni',serif; font-size:64px; line-height:.95 }
 .room-title .heading.italic{ font-style:italic }
 .room-meta{ opacity:.9; margin:.25rem 0 1rem }
 .room-desc{ margin:0 0 1.25rem }
@@ -247,7 +248,7 @@ img{max-width:100%;display:block;border-radius:12px}
 }
 .room-block.active .room-panel{ opacity:1; transform:none; filter:blur(0) }
 
-.room-title .heading{ font-family:'Bodoni Moda',serif; font-size:72px; line-height:.95 }
+.room-title .heading{ font-family:'libre bodoni',serif; font-size:72px; line-height:.95 }
 .room-title .heading.italic{ font-style:italic }
 .room-meta{ opacity:.9; margin:.25rem 0 1rem }
 .room-desc{ margin:0 0 1.5rem; max-width:44ch }
